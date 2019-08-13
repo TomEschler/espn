@@ -1,0 +1,86 @@
+/* https://media.giphy.com/media/TgPSZY19FyEllFRdcV/giphy.gif */
+*{
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: whitesmoke;
+    /* margin: 20px; */
+}
+.espn{
+    background-image: url('./images/espn4.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 10vh;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    bottom: 449px;
+    opacity: .7;
+}
+.text{
+    position: relative;
+    bottom: 275px;
+    left: 10px;
+    color: white;
+    font-size: 19pt;
+    font-family: 'Playfair Display', serif;
+    line-height: 0.1;
+}
+.text2{
+    position: relative;
+    bottom: 341px;
+    left: 205px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.1;
+}
+/* .crown{
+    height: 25px;
+    width: 25px;
+    background-image: url('./images/crown2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 630px;
+    left: 105px;
+} */
+/* center
+.crown{
+    height: 25px;
+    width: 25px;
+    background-image: url('./images/crown2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 632px;
+    left: 161px;
+} */
+.container{
+    background-color: #1b1a1a;
+    height: 75vh;
+    width: 100%;
+    position: relative;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 16vh 1fr 1fr auto ;
+    /* z-index: -1; */
+    border-radius: 7px;
+}
+h2{
+    color: tomato;
+    grid-row: 1/2;
+    grid-column: 2/4;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+.video{
+    background-image: url('https://media.giphy.com/media/TgPSZY19FyEllFRdcV/giphy.gif');
+    background-size: 400px;
+    background-repeat: no-repeat;
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    border-top: 0px solid black;
+    border-radius: 8px;
+}
